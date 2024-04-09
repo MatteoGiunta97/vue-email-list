@@ -11,7 +11,7 @@
 
     <div id="app">
 
-        <ul>
+        <ul v-if="emailList.length > 9">
             <li v-for="email in emailList"> {{ email }} </li>
         </ul>
 
